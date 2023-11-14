@@ -110,7 +110,6 @@ p{
     .picture2{
         display: flex;
         justify-content: center;
-        width: 100%;
         height: clamp(12rem,12vw,12vw);
         object-fit:cover;
         margin-bottom: clamp(1.3rem,1.3vw,1.3vw);
@@ -118,6 +117,7 @@ p{
     }
     .picture2 > img{
         border-radius: clamp(0.7rem,0.7vw,0.7vw);
+        width: clamp(18rem,18vw,18vw);
     }
     .picture1{
         display: none;
